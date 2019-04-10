@@ -1,0 +1,26 @@
+body {
+  background-color: orange;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.boxes div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 4px;
+  padding: 3px;
+}
+
+.boxes div:hover {
+  box-shadow: 3px 3px 3px black;
+  transition: all 0.2s ease-in-out;
+}
+
+.completed {
+  background-color: red;
+}
