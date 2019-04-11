@@ -1,11 +1,13 @@
 body {
   background-color: orange;
+  margin-top: 3rem;
 }
 
 .boxes {
   display: flex;
   justify-content: center;
   padding: 5rem;
+  padding-top: 2rem;
 }
 
 .boxes div {
@@ -19,8 +21,28 @@ body {
 .boxes div:hover {
   box-shadow: 3px 3px 3px black;
   transition: all 0.2s ease-in-out;
+  
 }
 
-.completed {
-  background-color: red;
+.playerOne {
+  transition: all 3ms ease-in-out;
+  border-radius: 50%;
+}
+
+.playerTwo {
+  background-color: green;
+}
+
+.game-info {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.game-info > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0 3rem;
+  font-family: 'Allerta Stencil';
 }
