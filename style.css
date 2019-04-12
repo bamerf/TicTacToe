@@ -51,8 +51,8 @@ background-color: black;
 @media (max-width: 600px) {
   .boxes div {
     margin-left: 2rem;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border: 2px solid black;
     margin: 4px;
     padding: 3px;
@@ -60,11 +60,11 @@ background-color: black;
   .game-info {
     display: flex;
     justify-content: center;
-    width: 450px;
+    width: 300px;
     margin: 0 auto;
   }
   .game-info > h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     padding: 0 1rem;
     font-family: 'Allerta Stencil';
