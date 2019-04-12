@@ -1,7 +1,9 @@
+// Selectors
 var boxes = document.querySelectorAll("div");
-var playerOneScore = document.querySelector(".player1")
-var playerTwoScore = document.querySelector(".player2")
+var playerOneScore = document.querySelector("#player1")
+var playerTwoScore = document.querySelector("#player2")
 var draw = document.querySelector(".draw")
+// var gameInfo = document.querySelector(".game-info")
 
 // Game Info
 var scores = {
@@ -78,6 +80,7 @@ var announceWinner = function() {
     playerTwoClicked = [];
     scores.playerOne++
     playerOneScore.textContent = scores.playerOne
+    // p1Animation.classList.add("animate tada")
     document.querySelectorAll('div').forEach(function(item) {
       item.classList.remove('playerOne')
       item.classList.remove('playerTwo')
