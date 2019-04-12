@@ -26,11 +26,12 @@ body {
 
 .playerOne {
   transition: all 3ms ease-in-out;
+  transform: rotate(-45deg);
   border-radius: 50%;
 }
 
 .playerTwo {
-  background-color: green;
+background-color: black;
 }
 
 .game-info {
