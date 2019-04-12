@@ -47,3 +47,26 @@ background-color: black;
   padding: 0 3rem;
   font-family: 'Allerta Stencil';
 }
+
+@media (max-width: 600px) {
+  .boxes div {
+    margin-left: 2rem;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 3px;
+  }
+  .game-info {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin: 0 auto;
+  }
+  .game-info > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+    font-family: 'Allerta Stencil';
+  }
+}
