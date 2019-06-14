@@ -3,7 +3,6 @@ var boxes = document.querySelectorAll("div");
 var playerOneScore = document.querySelector("#player1")
 var playerTwoScore = document.querySelector("#player2")
 var draw = document.querySelector(".draw")
-// var gameInfo = document.querySelector(".game-info")
 
 // Game Info
 var scores = {

@@ -1,6 +1,9 @@
 # TicTacToe
-Tic Tac Toe (Xs and Os) Game
 
-click here to play https://bamerfanian.github.io/TicTacToe/.
+## `Description`
 
-Still needs some work
+Xs and Os game made with `Vanilla JS`
+
+---
+
+> [Click Here to Play ](https://bamerf.github.io/TicTacToe/)

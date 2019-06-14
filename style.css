@@ -21,17 +21,17 @@ body {
 .boxes div:hover {
   box-shadow: 3px 3px 3px black;
   transition: all 0.2s ease-in-out;
-  
 }
 
 .playerOne {
-  transition: all 3ms ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: rotate(-45deg);
   border-radius: 50%;
 }
 
 .playerTwo {
-background-color: black;
+  transition: all 0.3s linear;
+  background-color: black;
 }
 
 .game-info {
@@ -42,6 +42,7 @@ background-color: black;
 }
 
 .game-info > h2 {
+  transition: all 0.3s linear;
   font-size: 1.5rem;
   text-align: center;
   padding: 0 3rem;
@@ -58,12 +59,14 @@ background-color: black;
     padding: 3px;
   }
   .game-info {
+    transition: all 0.3s linear;
     display: flex;
     justify-content: center;
     width: 300px;
     margin: 0 auto;
   }
   .game-info > h2 {
+    transition: all 0.3s linear;
     font-size: 1rem;
     text-align: center;
     padding: 0 1rem;
